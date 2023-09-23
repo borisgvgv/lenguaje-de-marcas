@@ -1,13 +1,13 @@
 # lenguaje-de-marcas
 
 # Tablas de conversión:
-• http://www.w3schools.com/tags/ref_entities.asp
-• http://www.unicode.org/charts/
+    http://www.w3schools.com/tags/ref_entities.asp
+    http://www.unicode.org/charts/
 
 # Otros elementos
 
-• <code>: para introducir partes de un código fuente
-• <pre>: para introducir textos preformateados, respetando espacios, saltos de línea, etc.
-• <strong>: marcar el texto emfatizado aún más
-• <address>: indica la dirección de un contacto
-• <hr>: líneas horizontales
+    <code>: para introducir partes de un código fuente
+    <pre>: para introducir textos preformateados, respetando espacios, saltos de línea, etc.
+    <strong>: marcar el texto emfatizado aún más
+    <address>: indica la dirección de un contacto
+    <hr>: líneas horizontales
