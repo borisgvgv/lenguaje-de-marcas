@@ -11,3 +11,13 @@
     <strong>: marcar el texto emfatizado aún más
     <address>: indica la dirección de un contacto
     <hr>: líneas horizontales
+
+# Págs de fuentes
+
+    • http://www.pallasweb.com/fonts.html
+    • http://www.fontsquirrel.com/
+    • https://www.google.com/fonts/
+
+# capítulo vencido
+
+    7. Añadiendo estilo con CSS
