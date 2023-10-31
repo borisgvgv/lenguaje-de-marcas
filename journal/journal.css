@@ -1,5 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+
 body {
-    margin-left: 30%;
-    margin-right: 30%;
-    font-family: Verdana, Geneva, Arial, sans-serif;
-  }
+  font-family: "Roboto Slab", sans-serif;
+  font-size: medium;
+}
+
+h1, h2{
+  font-weight: normal;
+  color: #cc6600;
+  border-bottom: thin dotted #c60;
+}
+
+h1 {
+  font-size: 170%;
+  
+}
+h2{
+  font-size: 130%;
+}
+
+blockquote{
+  font-style: italic;
+}
+
+em{
+  text-decoration: line-through;
+}
