@@ -1,0 +1,18 @@
+#contenedor {
+  width: 80%;
+  border-radius: 10px;
+  border: thin solid gray;
+  margin: 1% auto;
+  padding: 1% 0%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 15px;
+  justify-items: center;
+  align-items: center;
+}
+
+.item {
+  width: 200px;
+  border-radius: 10px;
+}

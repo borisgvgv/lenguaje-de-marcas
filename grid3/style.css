@@ -1,0 +1,110 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 50px;
+  align-items: center;
+  background-color: #333;
+  padding: 1%;
+ 
+}
+
+#logo {
+  width: 50px;
+  border-radius: 50%;
+}
+nav {
+  text-align: end;
+}
+
+li {
+  display: inline;
+  margin-left: 20px;
+  font-size: small;
+  color: aliceblue;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 15px;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 450px 100px;
+  background-color: gainsboro;
+}
+
+section .img-entrada{
+  background-image: url(https://img.freepik.com/vector-gratis/fondo-patron-ondulado-lineas-suaves_1017-14206.jpg);
+  background-size:cover;
+background-repeat: no-repeat;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+
+}
+
+@media (max-width: 1500px) {
+  main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 15px;
+  }
+  
+}
+@media (min-width: 999px){
+  .nav2{
+    display: none;
+  }
+}
+@media (max-width: 1000px){
+  main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 15px;
+  }
+  header {
+    max-height: 50px;
+    
+   }
+
+  .nav1{
+    display: none;
+  }
+  .nav2{
+    text-align: end;
+    color: aliceblue;
+  }
+}
+
+@media (max-width: 800px){
+  main {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 15px;
+  }
+
+  header {
+   max-height: 50px;
+   
+  }
+}
+
+
+

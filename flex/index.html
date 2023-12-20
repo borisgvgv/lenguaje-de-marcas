@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="container">
+        <h1>Propiedades de posicionamiento con flex</h1>
+    </div>
+    </div>
+
+    <div id="container">
+        <p>Display:flex;</p>
+        <div id="container-items">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+        </div>
+    </div>
+
+    <div id="container">
+        <p>Display:flex; flex-direction:column;</p>
+        <div id="container-items2">
+            <div class="item2">1</div>
+            <div class="item2">2</div>
+            <div class="item2">3</div>
+        </div>
+    </div>
+
+    <div id="container">
+        <p>Display:flex; flex-direction:column-reverse;</p>
+        <div id="container-items3">
+            <div class="item3">1</div>
+            <div class="item3">2</div>
+            <div class="item3">3</div>
+        </div>
+    </div>
+
+    <div id="container">
+        <p>Display:flex; flex-direction:row-reverse; justify-content:start;</p>
+        <div id="container-items4">
+            <div class="item4">1</div>
+            <div class="item4">2</div>
+            <div class="item4">3</div>
+        </div>
+    </div>
+
+
+    <div id="container">
+        <p>Display:flex; flex-direction:row-reverse; justify-content:end;</p>
+        <div id="container-items5">
+            <div class="item5">1</div>
+            <div class="item5">2</div>
+            <div class="item5">3</div>
+        </div>
+    </div>
+
+    
+    <div id="container">
+        <p>Display:flex; flex-wrap:wrap</p>
+        <p><strong>wrap:</strong> pasa los elementos a la fila siguiente si no caben conservando su tamaño natural</p>
+        <p><strong>wrap-reverse:</strong>pasa los elementos en orden inverso a la fila siguiente conservando su tamaño natural</p>
+        <p><strong>no-wrap:</strong> es == a no usarlo</p>
+        <div id="container-items6">
+            <div class="item6">1</div>
+            <div class="item6">2</div>
+            <div class="item6">3</div>
+        </div>
+    </div>
+
+    <div id="container">
+        <p><strong>Atajo:</strong> Display:flex; flex-flow: row wrap</p>
+        <p>flex-flow: row wrap es un atajo que tiene como resultado el mismo comportamiento del ejemplo anterior</p>
+        <div id="container-items7">
+            <div class="item7">1</div>
+            <div class="item7">2</div>
+            <div class="item7">3</div>
+        </div>
+    </div>
+
+    <div id="container">
+        <p> Display:flex; column-gap: valor (para items en fila) o row-gap (para items en columnas)</p>
+        <p>En este caso le hemos dado un column-gap: 15px</p>
+        <p>Si la suma de anchos entre los items es superior al ancho del padre no se apreciarán los espacios entre items</p>
+        <div id="container-items8">
+            <div class="item8">1</div>
+            <div class="item8">2</div>
+            <div class="item8">3</div>
+        </div>
+    </div>
+
+    <div id="container">
+        <p><strong>Atajo:</strong> Display:flex; gap: valor horizontal y  valor vertical;</p>
+        <p>Con gap podemos dar espacio horizontal y vertical al mismo tiempo </p>
+        <p>En este caso le hemos dado un gap: 15px tanto en horizontal como en vertical</p>
+        <p>Si la suma de anchos entre los items es superior al ancho del padre no se apreciarán los espacios entre items</p>
+        <div id="container-items9">
+            <div class="item9">1</div>
+            <div class="item9">2</div>
+            <div class="item9">3</div>
+        </div>
+    </div>
+
+    <div id="container">
+        <p> Display:flex; gap: valor horizontal y  valor vertical; justify-content: start, center, end, space-between, space-around , space-evenly</p>
+        <p><strong>justify-content: start</strong> justifica los items al principio</p>
+        <p><strong>justify-content: center</strong> justifica los items al centro</p>
+        <p><strong>justify-content: end</strong> justifica los items al final</p>
+        <p><strong>justify-content: space-between</strong> distribuye los items en el div padre sin margen L y R</p>
+        <p><strong>justify-content: space-around </strong> distribuye los items en el div padre dejando espacio alrededor con la mitad de espacio en L y R</p>
+        <p><strong>justify-content: space-evenly</strong> distribuye los items en el div padre dejando espacio el mismo espacio en L y R  que entre los items</p>
+        <p>Si la suma de anchos entre los items es superior al ancho del padre no se apreciará</p>
+        <p>En este caso los hemos alineado al centro con justify-content:center</p>
+        <div id="container-items10">
+            <div class="item10">1</div>
+            <div class="item10">2</div>
+            <div class="item10">3</div>
+        </div>
+        <div id="container-items11">
+            <div class="item11">1</div>
+            <div class="item11">2</div>
+            <div class="item11">3</div>
+        </div>
+        <div id="container-items12">
+            <div class="item12">1</div>
+            <div class="item12">2</div>
+            <div class="item12">3</div>
+        </div>
+        <div id="container-items13">
+            <div class="item13">1</div>
+            <div class="item13">2</div>
+            <div class="item13">3</div>
+        </div>
+        <div id="container-items14">
+            <div class="item14">1</div>
+            <div class="item14">2</div>
+            <div class="item14">3</div>
+        </div>
+        <div id="container-items15">
+            <div class="item15">1</div>
+            <div class="item15">2</div>
+            <div class="item15">3</div>
+        </div>
+    </div>
+
+
+    <div id="container">
+        <h2>Alineción en eje secundario vertical con align-item</h2>
+        <p></p>
+        <p>Con gap podemos dar espacio horizontal y vertical al mismo tiempo </p>
+        <p>En este caso le hemos dado un gap: 15px tanto en horizontal como en vertical</p>
+        <p>Si la suma de anchos entre los items es superior al ancho del padre no se apreciarán los espacios entre items</p>
+        <div id="container-items16">
+            <div class="item16">1</div>
+            <div class="item16">2</div>
+            <div class="item16">3</div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

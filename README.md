@@ -1,5 +1,9 @@
 # lenguaje-de-marcas
 
+# Referencias de todos los lenguajes
+    https://developer.mozilla.org/es/
+    después ir a referencias
+
 # Tablas de conversión:
     http://www.w3schools.com/tags/ref_entities.asp
     http://www.unicode.org/charts/

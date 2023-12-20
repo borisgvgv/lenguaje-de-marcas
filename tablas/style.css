@@ -1,0 +1,19 @@
+table{
+    border: thin solid black;
+    border-collapse: collapse;
+    border-spacing: 30px;
+    caption-side:bottom;
+    margin: 0px;
+}
+td, th{
+    border: thin solid black;
+    padding: 10px;
+}
+
+tr:nth-child(2n){
+    background-color: bisque;
+}
+
+tr:nth-child(2n+1){
+    background-color:azure;
+}

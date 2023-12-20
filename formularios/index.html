@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form action="" method="post">
+        <fieldset>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="Nombre">
+            <label for="tel">Teléfono</label>
+            <input type="tel" id="Teléfono">
+            <label for="number">Número</label>
+            <input type="number" id="numero">
+            <label for="password">Password</label>
+            <input type="password" value="password">
+        </fieldset>
+        <fieldset>
+            <label for="Marinero">Marinero</label>
+            <input type="checkbox" id="Marinero">
+            <label for="granjero">Granjero</label>
+            <input type="checkbox" id="granjero">
+        </fieldset>
+        <fieldset>
+            <!- Para que los campos sean excluyentes entre si tienen que tener el mismo nombre, en este caso genero ->
+            <label for="Hombre">Hombre</label>
+            <input type="radio" name="genero" id="Hombre">
+            <label for="Mujer">Mujer</label>
+            <input type="radio" name="genero" id="Mujer">
+        </fieldset>
+
+        <fieldset>
+            <label for="comentario">Comentario</label>
+            <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+        </fieldset>
+        <fieldset>
+            <label for="grupo">Grupo</label>
+            <select name="grupo" id="grupo" cols="30" rows="10">
+                <option value="uno">Opción 1</option>
+                <option value="dos">Opción 2</option>
+                <option value="tres">Opción 3</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Reset">
+        </fieldset>
+
+</body>
+
+</html>
