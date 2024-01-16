@@ -4,6 +4,7 @@
   font-family: sans-serif;
 }
 
+
 header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -11,7 +12,6 @@ header {
   align-items: center;
   background-color: #333;
   padding: 1%;
- 
 }
 
 #logo {
@@ -26,6 +26,11 @@ li {
   display: inline;
   margin-left: 20px;
   font-size: small;
+  color: aliceblue;
+}
+
+a{
+  text-decoration: none;
   color: aliceblue;
 }
 
@@ -61,6 +66,7 @@ footer{
 #main-form{
   display: grid;
   grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1,1fr);
   justify-items: center;
   padding: 2% ;
 }
@@ -99,7 +105,7 @@ label{
    }
 
   .nav1{
-    display: none;
+    display:none;
   }
   .nav2{
     text-align: end;

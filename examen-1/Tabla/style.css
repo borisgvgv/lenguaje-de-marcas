@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Vinyl");
+
+table {
+  font-family: sans-serif;
+  border: thin solid black;
+  border-collapse: collapse;
+  caption-side: bottom;
+  margin: 0% auto;
+}
+
+caption {
+  margin-top: 10px;
+}
+
+th,
+td {
+  border: thin solid black;
+  padding: 10px 40px;
+  text-align: center;
+}
