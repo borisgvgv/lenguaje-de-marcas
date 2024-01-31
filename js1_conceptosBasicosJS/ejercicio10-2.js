@@ -16,7 +16,7 @@ aprobado o suspendido.
 • Las notas deben ser numéricas y estar entre 0 y 10, en caso
 contrario se mostrará un mensaje por consola indicándolo.
 */
-let confirmacion;
+
 
 
 let nota = prompt("Introduce tu nota", "Nota");
@@ -31,7 +31,7 @@ if (nota < 0 || nota > 10) {
     alert("Estás suspenso");
 }
 
-
+let confirmacion;
 do {
     confirmacion = confirm("Deseas revisar otra nota?");
     if (confirmacion) {

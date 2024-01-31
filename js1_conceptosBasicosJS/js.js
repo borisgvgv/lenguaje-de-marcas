@@ -86,6 +86,30 @@ console.log("Eres muy mayor para entrar");
 }
 
 
+//for in y of
+//-------ejemplo 1
+
+let arrayNum = [2,3,4,8,10];
+
+for(let num in arrayNum){
+  console.log(arrayNum[num]); //muestra  el valor de la posición 2,3,4,8,10
+}
+
+//-------ejemplo 2
+
+let arrayNum2 = [2,3,4,8,10];
+
+for(let num of arrayNum2){
+  console.log(num);//muestra  el valor de la posición 2,3,4,8,10
+}
+
+//-------ejemplo 3
+
+let arrayNum3 = [2,3,4,8,10];
+
+for(let num in arrayNum3){
+  console.log(num); //muestra la posición desde la 0 hasta ...fin
+}
 
 
 
