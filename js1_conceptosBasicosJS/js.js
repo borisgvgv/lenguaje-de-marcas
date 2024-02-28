@@ -100,7 +100,7 @@ for(let num in arrayNum){
 let arrayNum2 = [2,3,4,8,10];
 
 for(let num of arrayNum2){
-  console.log(num);//muestra  el valor de la posición 2,3,4,8,10
+  console.log(num);//muestra el valor de la posición 2,3,4,8,10
 }
 
 //-------ejemplo 3

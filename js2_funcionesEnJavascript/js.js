@@ -70,7 +70,7 @@ una expresión
 function getPrecioTotal(precio, impuesto=precio*0.07) {
 return precio + impuesto;
 }
-console.log(getPrecioTotal((100))); // Imprime 107
+console.log(`El precio total es: ${getPrecioTotal(100)}`); // Imprime 107
 
 /*
 Valor de retorno
